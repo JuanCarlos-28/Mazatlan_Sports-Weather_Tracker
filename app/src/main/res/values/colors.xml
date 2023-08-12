@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    Botones Primarios -->
+    <color name="purplePrimary">#8A2EFF</color>
+    <color name="yellowPrimary">#FFEB66</color>
+    <color name="greenPrimary">#2B6831</color>
+    <color name="bluePrimary">#16339B</color>
+
+  <!--    Botones Secundarios -->
+  <color name="purpleSecondary">#9B53F4</color>
+  <color name="yellowSecondary">#F5F8E45F</color>
+  <color name="greenSecondary">#237A2B</color>
+  <color name="blueSecondary">#1A39A6</color>
+
+  <!-- Colores de Etiquetas -->
+  <color name="estable">#007B14</color>
+  <color name="advertencia">#FF9900</color>
+  <color name="peligro">#FF0000</color>
+</resources>

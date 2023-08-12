@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Mazatlan SportsWeather Tracker</string>
+
+    <!-- Rayos UV -->
+    <string name="rayos_uv_bajos">Rayos UV bajos</string>
+    <string name="desc_rayos_uv_bajos">Los niveles de rayos ultravioleta son bajos, por lo que se puede realizar actividad física.</string>
+    <string name="desc_rayos_uv_bajos2">• El partido puede continuar sin ningún problema siempre y cuando las condiciones de la cancha estén óptimas.</string>
+
+    <string name="rayos_uv_moderado">Rayos UV moderado</string>
+    <string name="desc_rayos_uv_moderado">Los niveles de rayos ultravioleta se encuentran moderados, por lo que se puede realizar actividad física.</string>
+    <string name="desc_rayos_uv_moderado2">• Uso de Protector Solar\n• Lentes para el Sol\n• Gorras o Sombreros\n• Busca un lugar con sombra.\n• El partido se puede celebrar correctamente.</string>
+
+    <string name="rayos_uv_altos">Rayos UV Altos</string>
+    <string name="desc_rayos_uv_altos">Los niveles de rayos ultravioleta son muy altos, por lo que no se puede realizar actividad física.</string>
+    <string name="desc_rayos_uv_altos2">• Uso de Protector Solar\n• Lentes para el Sol\n• Gorras o Sombreros\n• Busca un lugar con sombra.\n• El partido debe suspenderse inmediatamente.</string>
+
+    <!-- Humedad -->
+    <string name="humedad_advertencia">¡Advertencia!</string>
+    <string name="desc_humedad_advertencia">Esta humedad se considera muy baja y podría causar sequedad en el aire y en la piel.</string>
+    <string name="desc_humedad_advertencia2">• Utiliza gorro, guantes y prendas térmicas para jugar.\n• Mantente en un lugar cálido.</string>
+
+    <string name="humedad_aceptable">Humedad Aceptable</string>
+    <string name="desc_humedad_aceptable">Estas humedades suelen considerarse cómodas y adecuadas para la mayoría de las actividades y entornos.</string>
+    <string name="desc_humedad_aceptable2">• Mantente hidratado.\n• El Partido se puede celebrar sin ningun problema, ya que no representa ningún peligro hacia la salud.</string>
+
+    <string name="humedad_peligro">¡Advertencia de alta humedad!</string>
+    <string name="desc_humedad_peligro">Los niveles de Humedad son extremadamente altos para realizar actividad física.</string>
+    <string name="desc_humedad_peligro2">• Mantente hidratado.\n• Busca refugio fresco.\n• Evita actividades al aire libre\n• Presta atención a los síntomas.</string>
+
+  <!-- Temperatura -->
+    <string name="temp_advertencia_baja">¡Advertencia!</string>
+    <string name="desc_temp_advertencia_baja">Los niveles de temperatura son muy bajos para realizar actividad física.</string>
+    <string name="desc_temp_advertencia_baja2">• Utiliza gorro, guantes y prendas térmicas para jugar.\n• Mantente en un lugar cálido.</string>
+
+    <string name="temp_aceptable">Temperatura aceptable</string>
+    <string name="desc_temp_aceptable">Los niveles de temperatura son óptimos para realizar actividad física.</string>
+    <string name="desc_temp_aceptable2">• El partido puede continuar sin ningún problema siempre y cuando las condiciones de la cancha estén óptimas.</string>
+
+    <string name="temp_advertencia_alta">¡Advertencia!</string>
+    <string name="desc_temp_advertencia_alta">Los niveles de temperatura son muy altos para realizar actividad física.</string>
+    <string name="desc_temp_advertencia_alta2">• Busca un lugar con sombra.\n• Hidrátate con agua o un suero.\n• El partido puede celebrarse, pero se harán pausas cada 15 minutos para la hidratación.</string>
+
+    <string name="temp_peligro">¡Peligro!</string>
+    <string name="desc_temp_peligro">Los niveles de temperatura son extremadamente altos para realizar actividad física.</string>
+    <string name="desc_temp_peligro2">• Busca un lugar con sombra.\n• Hidrátate con agua o un suero.\n• El Partido no se puede celebrar bajo ninguna circustancia..</string>
+
+  <!-- Lluvia -->
+    <string name="lluvia_sin_amenaza">¡Sin Amenazas de Lluvia!</string>
+    <string name="desc_lluvia_sin_amenaza">Probabilidad de lluvia muy baja. Es poco probable que ocurran precipitaciones en este momento.</string>
+    <string name="desc_lluvia_sin_amenaza2">• El partido puede continuar sin ningun problema siempre y cuando las condiciones de la cancha estén óptimas.</string>
+
+    <string name="lluvia_intervalos">Intervalos de Lluvia</string>
+    <string name="desc_lluvia_intervalos">Posibilidad moderada de lluvia. Podrían presentarse episodios de llovizna intermitente.</string>
+    <string name="desc_lluvia_intervalos2">• Lleva un paraguas o impermeable.\n• Usa calzado adecuado.\n• El Partido se puede celebrar sin ningun problema, ya que no representa ningún peligro hacia la salud.</string>
+
+    <string name="lluvia_peligro">¡LLuvias Extremas!</string>
+    <string name="desc_lluvia_peligro">Probabilidad alta de lluvias. Se esperan precipitaciones significativas, posiblemente acompañadas de tormentas.</string>
+    <string name="desc_lluvia_peligro2">• Busca un lugar seguro.\n• Evita cruzar ríos desbordados\n• El Partido debe ser suspendido hasta que la situación mejore.</string>
+
+    <!-- Botones -->
+    <string name="btn_regresar">Regresar</string>
+    <string name="btn_registro">Registro</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="btn_login">Log In</string>
+
+</resources>
