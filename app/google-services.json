@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "706809034329",
+    "firebase_url": "https://pruebaconexionwifi-default-rtdb.firebaseio.com",
+    "project_id": "pruebaconexionwifi",
+    "storage_bucket": "pruebaconexionwifi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706809034329:android:8ec0365f2c6244dd106348",
+        "android_client_info": {
+          "package_name": "com.example.mazatlansportsweathertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706809034329-2j30tugt0hab9o6fm2fs47as0m73gmb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFiIKLLJ7Ix4s1RUXMFzUGkrxbugjzdlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706809034329-2j30tugt0hab9o6fm2fs47as0m73gmb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
