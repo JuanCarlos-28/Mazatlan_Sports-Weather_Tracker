@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#D8FFEE7D"
+  android:gravity="center"
+  android:orientation="vertical"
+  tools:context=".SplashActivity">
+
+  <ImageView
+    android:id="@+id/imgLogoBlanco"
+    android:layout_width="222dp"
+    android:layout_height="232dp"
+    android:background="@drawable/logo_blanco"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+  </ImageView>
+
+  <ImageView
+    android:id="@+id/imgLogoAzul"
+    android:layout_width="222dp"
+    android:layout_height="232dp"
+    android:background="@drawable/logo_azul"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+  </ImageView>
+
+  <ImageView
+    android:id="@+id/imgLogoNegro"
+    android:layout_width="222dp"
+    android:layout_height="232dp"
+    android:background="@drawable/logo_negro"
+    android:visibility="visible"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+  </ImageView>
+
+  <ImageView
+    android:id="@+id/imgLogoNegro2"
+    android:layout_width="222dp"
+    android:layout_height="232dp"
+    android:background="@drawable/logo_negro"
+    android:visibility="invisible"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="-100dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent">
+
+  </ImageView>
+
+    <TextView
+      android:id="@+id/lblNombreTeamNegro"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="REEMY\nSOLUTIONS"
+      android:textAlignment="center"
+      android:textSize="40sp"
+      android:layout_marginTop="-50dp"
+      android:textColor="@color/black"
+      android:visibility="invisible"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imgLogoNegro2">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".RegistroActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+      android:id="@+id/lblEmpresas"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="5dp"
+      android:gravity="center"
+      android:text="Mazatlán Sports\nWeather Tracker"
+      android:textColor="#081EAF"
+      android:textSize="30sp"
+      android:textStyle="bold"></TextView>
+
+    <TextView
+      android:id="@+id/lblRegistro"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="10dp"
+      android:gravity="center"
+      android:text="Registro de Usuarios"
+      android:textColor="#1D31BA"
+      android:textSize="22sp"
+      android:textStyle="bold"></TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/txtCajaNombre"
+      android:layout_width="match_parent"
+      android:layout_marginTop="25dp"
+      android:layout_height="wrap_content">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="18dp"
+        android:hint="Nombre Usuario"
+        android:inputType="textCapWords"
+        android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/txtCajaCorreo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="18dp"
+        android:hint="Correo Electrónico"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/txtcajaContrasenia"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:endIconMode="password_toggle">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtContrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="18dp"
+        android:hint="Contraseña"
+
+        android:inputType="textPassword"
+        android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/txtcajaReContrasenia"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:endIconMode="password_toggle">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtReContrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="18dp"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="20dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+      <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="3dp"
+        android:backgroundTint="#D32F2F"
+        android:padding="15dp"
+        android:text="REGRESAR"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+      </androidx.appcompat.widget.AppCompatButton>
+
+
+      <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="3dp"
+        android:backgroundTint="#00E676"
+        android:padding="15dp"
+        android:text="REGISTRARSE"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+      </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vector">
+
+    <ImageView
+      android:id="@+id/imgLogo"
+      android:layout_width="wrap_content"
+      android:layout_height="58dp"
+      android:layout_gravity="bottom"
+      android:layout_marginStart="20dp"
+      android:src="@drawable/logo"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/lblTeamName"
+      app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+
+    <TextView
+      android:id="@+id/lblTeamName"
+      android:layout_width="wrap_content"
+      android:layout_height="35dp"
+      android:layout_marginEnd="60dp"
+      android:gravity="center"
+      android:paddingBottom="2dp"
+      android:text="REEMY SOLUTIONS"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/imgLogo">
+
+    </TextView>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
