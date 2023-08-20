@@ -4,4 +4,50 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+
+    <!--  Dark Mode -->
+    <!--  Screen background if dark mode on -->
+    <style name="SCREEN" >
+      <item name="android:background">#222222</item>
+    </style>
+
+    <!--  Texts background if dark mode on  -->
+    <style name="TEXT" >
+      <item name="android:textColor"> @color/white </item>
+    </style>
+
+  <style name="TEXTO_INGRESO" >
+    <item name="android:textColor"> @color/white </item>
+  </style>
+
+    <!--  Button background if dark mode on  -->
+    <style name="BUTTON" >
+      <item name="android:backgroundTint"> #09B61A </item>
+    </style>
+
+    <style name="IMAGE" >
+      <item name="android:src"> @drawable/logo_blanco_footer </item>
+    </style>
+
+  <style name="TEXTO_FOOTER" >
+    <item name="android:textColor"> @color/white </item>
+    <item name="android:layout_height"> 75dp </item>
+  </style>
+
+  <style name="BARRA_CANCHAS" >
+    <item name="android:backgroundTint"> #222222 </item>
+  </style>
+
+  <style name="BARRA_CANCHAS_TINT" >
+    <item name="android:backgroundTint"> #222222 </item>
+  </style>
+
+  <style name="blanco_negro" >
+    <item name="android:background"> @color/white </item>
+  </style>
+
+  <style name="icono_flecha" >
+    <item name="android:src"> @drawable/icono_back_blanco </item>
+  </style>
+
 </resources>

@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   android:orientation="vertical"
+  style="@style/SCREEN"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
 
@@ -9,13 +10,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="5dp"
-    android:background="#C8C8C7" >
+    style="@style/BARRA_CANCHAS" >
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
       android:layout_width="wrap_content"
       android:layout_height="match_parent"
       android:id="@+id/coordinatorLayout"
       app:layout_constraintStart_toStartOf="parent"
+      android:layout_marginStart="18dp"
       app:layout_constraintTop_toTopOf="parent">
 
       <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -23,9 +25,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnRegresar"
         app:borderWidth="0dp"
-        android:layout_marginStart="5dp"
         android:src="@drawable/regresar"
-        android:backgroundTint="#C8C8C7"
+        style="@style/BARRA_CANCHAS_TINT"
         android:layout_gravity="start">
 
       </com.google.android.material.floatingactionbutton.FloatingActionButton>
@@ -38,10 +39,10 @@
       android:layout_height="wrap_content"
       android:textStyle="bold"
       android:text="Actividades"
-      android:textColor="@color/black"
+      style="@style/TEXT"
       android:textSize="25sp"
       app:layout_constraintBottom_toBottomOf="parent"
-      android:layout_marginStart="60dp"
+      android:layout_marginStart="75dp"
       app:layout_constraintStart_toEndOf="@id/coordinatorLayout"
       app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,7 +61,7 @@
       android:id="@+id/lblActividadAConsultar"
       android:text="Actividad a consultar:"
       android:layout_marginVertical="4dp"
-      android:textColor="@color/black"
+      style="@style/TEXT"
       android:textSize="25sp"
       android:textStyle="bold" >
 
@@ -110,7 +111,7 @@
     <androidx.cardview.widget.CardView
       android:layout_width="match_parent"
       android:layout_height="130dp"
-      app:cardBackgroundColor="@color/yellowPrimary"
+      app:cardBackgroundColor="#FFEB66"
       app:cardCornerRadius="28dp"
       android:layout_marginVertical="8dp"
       android:id="@+id/btnTemperatura" >

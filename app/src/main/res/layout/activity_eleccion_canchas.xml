@@ -5,13 +5,14 @@
   android:orientation="vertical"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  style="@style/SCREEN"
   tools:context=".EleccionCanchasActivity">
 
   <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="5dp"
-    android:background="#C8C8C7" >
+    style="@style/BARRA_CANCHAS" >
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
       android:layout_width="wrap_content"
@@ -27,7 +28,7 @@
         app:borderWidth="0dp"
         android:src="@drawable/regresar"
         android:layout_marginStart="5dp"
-        android:backgroundTint="#C8C8C7"
+        style="@style/BARRA_CANCHAS_TINT"
         android:layout_gravity="start">
 
       </com.google.android.material.floatingactionbutton.FloatingActionButton>
@@ -40,7 +41,7 @@
       android:layout_height="wrap_content"
       android:textStyle="bold"
       android:text="Espacios Deportivos"
-      android:textColor="@color/black"
+      style="@style/TEXT"
       android:textSize="22sp"
       app:layout_constraintBottom_toBottomOf="parent"
       android:layout_marginStart="25dp"

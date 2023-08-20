@@ -46,15 +46,15 @@
 
   <!-- Lluvia -->
     <string name="lluvia_sin_amenaza">¡Sin Amenazas de Lluvia!</string>
-    <string name="desc_lluvia_sin_amenaza">Probabilidad de lluvia muy baja. Es poco probable que ocurran precipitaciones en este momento.</string>
+    <string name="desc_lluvia_sin_amenaza">Nivel de lluvia muy bajo. Es poco probable que ocurran precipitaciones en este momento.</string>
     <string name="desc_lluvia_sin_amenaza2">• El partido puede continuar sin ningun problema siempre y cuando las condiciones de la cancha estén óptimas.</string>
 
     <string name="lluvia_intervalos">Intervalos de Lluvia</string>
-    <string name="desc_lluvia_intervalos">Posibilidad moderada de lluvia. Podrían presentarse episodios de llovizna intermitente.</string>
+    <string name="desc_lluvia_intervalos">Nivel de lluvia moderado. Podrían presentarse episodios de llovizna intermitente.</string>
     <string name="desc_lluvia_intervalos2">• Lleva un paraguas o impermeable.\n• Usa calzado adecuado.\n• El Partido se puede celebrar sin ningun problema, ya que no representa ningún peligro hacia la salud.</string>
 
     <string name="lluvia_peligro">¡LLuvias Extremas!</string>
-    <string name="desc_lluvia_peligro">Probabilidad alta de lluvias. Se esperan precipitaciones significativas, posiblemente acompañadas de tormentas.</string>
+    <string name="desc_lluvia_peligro">Nivel de lluvia muy alto. Se esperan precipitaciones significativas, posiblemente acompañadas de tormentas.</string>
     <string name="desc_lluvia_peligro2">• Busca un lugar seguro.\n• Evita cruzar ríos desbordados\n• El Partido debe ser suspendido hasta que la situación mejore.</string>
 
     <!-- Botones -->

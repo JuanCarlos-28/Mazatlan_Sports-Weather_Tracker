@@ -4,6 +4,7 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  style="@style/SCREEN"
   android:orientation="vertical"
   tools:context=".NivelRayosUvActivity">
 
@@ -63,6 +64,8 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Nivel actual"
+      android:textStyle="bold"
+      style="@style/TEXT"
       android:textSize="25sp">
 
     </TextView>
@@ -72,7 +75,7 @@
       android:layout_width="match_parent"
       android:layout_height="2dp"
       android:layout_marginTop="10dp"
-      android:background="@color/black">
+      style="@style/blanco_negro">
 
     </View>
 
@@ -111,7 +114,7 @@
       android:layout_width="match_parent"
       android:layout_height="2dp"
       android:layout_marginTop="10dp"
-      android:background="@color/black">
+      style="@style/blanco_negro">
 
     </View>
 
@@ -137,7 +140,7 @@
       android:text="@string/desc_rayos_uv_bajos"
 
       android:textAlignment="center"
-      android:textColor="@color/black"
+      style="@style/TEXT"
       android:textSize="20sp">
 
     </TextView>
@@ -148,6 +151,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="5dp"
       android:text="Protocolos"
+      style="@style/TEXT"
       android:textSize="28sp"
       android:textStyle="bold">
 
@@ -160,7 +164,7 @@
       android:layout_marginVertical="15dp"
       android:text="@string/desc_rayos_uv_bajos2"
       android:textAlignment="center"
-      android:textColor="@color/black"
+      style="@style/TEXT"
       android:textSize="20sp">
 
     </TextView>

@@ -5,6 +5,7 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical"
+  style="@style/SCREEN"
   tools:context=".RegistroActivity">
 
   <LinearLayout
@@ -22,7 +23,7 @@
       android:layout_marginVertical="5dp"
       android:gravity="center"
       android:text="Mazatlán Sports\nWeather Tracker"
-      android:textColor="#081EAF"
+      style="@style/TEXTO_INGRESO"
       android:textSize="30sp"
       android:textStyle="bold"></TextView>
 
@@ -33,7 +34,7 @@
       android:layout_marginVertical="10dp"
       android:gravity="center"
       android:text="Registro de Usuarios"
-      android:textColor="#1D31BA"
+      style="@style/TEXTO_INGRESO"
       android:textSize="22sp"
       android:textStyle="bold"></TextView>
 
@@ -148,16 +149,15 @@
 
   <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/vector">
+    android:layout_height="match_parent">
 
     <ImageView
       android:id="@+id/imgLogo"
       android:layout_width="wrap_content"
-      android:layout_height="58dp"
+      android:layout_height="75dp"
       android:layout_gravity="bottom"
       android:layout_marginStart="20dp"
-      android:src="@drawable/logo"
+      style="@style/IMAGE"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toStartOf="@+id/lblTeamName"
       app:layout_constraintStart_toStartOf="parent">
@@ -167,12 +167,11 @@
     <TextView
       android:id="@+id/lblTeamName"
       android:layout_width="wrap_content"
-      android:layout_height="35dp"
+      style="@style/TEXTO_FOOTER"
       android:layout_marginEnd="60dp"
       android:gravity="center"
       android:paddingBottom="2dp"
       android:text="REEMY SOLUTIONS"
-      android:textColor="@color/black"
       android:textSize="20sp"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"

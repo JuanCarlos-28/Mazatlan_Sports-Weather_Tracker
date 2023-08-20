@@ -4,6 +4,7 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  style="@style/SCREEN"
   android:orientation="vertical"
   tools:context=".NivelHumedadActivity">
 
@@ -40,7 +41,7 @@
       android:layout_height="wrap_content"
       android:textStyle="bold"
       android:text="Nivel de humedad"
-      android:textColor="@color/white"
+      style="@style/TEXT"
       android:textSize="25sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -63,6 +64,8 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Nivel actual"
+      android:textStyle="bold"
+      style="@style/TEXT"
       android:textSize="25sp">
 
     </TextView>
@@ -72,7 +75,7 @@
       android:layout_width="match_parent"
       android:layout_height="2dp"
       android:layout_marginTop="10dp"
-      android:background="@color/black">
+      style="@style/blanco_negro">
 
     </View>
 
@@ -111,7 +114,7 @@
       android:layout_width="match_parent"
       android:layout_height="2dp"
       android:layout_marginTop="10dp"
-      android:background="@color/black">
+      style="@style/blanco_negro">
 
     </View>
 
@@ -136,7 +139,7 @@
       android:layout_marginVertical="5dp"
       android:text="@string/desc_humedad_peligro"
       android:textAlignment="center"
-      android:textColor="@color/black"
+      style="@style/TEXT"
       android:textSize="20sp">
 
     </TextView>
@@ -147,6 +150,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="5dp"
       android:text="Protocolos"
+      style="@style/TEXT"
       android:textSize="28sp"
       android:textStyle="bold">
 
@@ -159,7 +163,7 @@
       android:layout_marginVertical="5dp"
       android:text="@string/desc_humedad_peligro2"
       android:textAlignment="viewStart"
-      android:textColor="@color/black"
+      style="@style/TEXT"
       android:textSize="20sp">
 
     </TextView>

@@ -3,7 +3,53 @@
     <style name="Base.Theme.MazatlanSportsWeatherTracker" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/black</item>
     </style>
+
+    <!--  Light Mode -->
+    <!--  Screen background if light mode on -->
+    <style name="SCREEN" >
+        <item name="android:background"> @color/white </item>
+    </style>
+
+    <!--  Texts background if light mode on  -->
+    <style name="TEXT" >
+        <item name="android:textColor"> @color/black </item>
+    </style>
+
+  <style name="TEXTO_INGRESO" >
+    <item name="android:textColor"> #1D31BA </item>
+  </style>
+
+    <!--  Button background if light mode on  -->
+    <style name="BUTTON" >
+        <item name="android:backgroundTint"> #09B61A </item>
+    </style>
+
+    <style name="IMAGE" >
+      <item name="android:src"> @drawable/logo </item>
+    </style>
+
+  <style name="TEXTO_FOOTER" >
+    <item name="android:textColor"> @color/black </item>
+    <item name="android:layout_height"> 60dp </item>
+  </style>
+
+  <style name="BARRA_CANCHAS" >
+    <item name="android:background"> #C8C8C7 </item>
+  </style>
+
+  <style name="BARRA_CANCHAS_TINT" >
+    <item name="android:backgroundTint"> #C8C8C7 </item>
+  </style>
+
+  <style name="blanco_negro" >
+    <item name="android:background"> @color/black </item>
+  </style>
+
+  <style name="icono_flecha" >
+    <item name="android:src"> @drawable/icono_back_negro </item>
+  </style>
 
     <style name="Theme.MazatlanSportsWeatherTracker" parent="Base.Theme.MazatlanSportsWeatherTracker" />
 </resources>
